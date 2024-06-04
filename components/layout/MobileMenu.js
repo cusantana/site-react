@@ -29,20 +29,18 @@ export default function MobileMenu() {
                                 </Link>
                                 <ul className="submenu has-homemenu" style={{ display: `${activeItem === 1 ? "block" : "none"}` }}>
                                     <li><Link href="/">Home 1</Link></li>
-                                    <li><Link href="/index-2">Home 2</Link></li>
-                                    <li><Link href="/index-3">Home 3</Link></li>
-                                    <li><Link href="/index-4">Home 4</Link></li>
+                                   
                                 </ul>
                                 <a className={`mean-expand ${activeItem === 1 ? "mean-clicked" : ""}`} onClick={() => handleActiveItem(1)}>
                                     <i className="far fa-plus" />
                                 </a>
                             </li>
                             <li>
-                                <Link href="/about">About</Link>
+                                <Link href="/about">Quem Somos</Link>
                             </li>
                             <li>
                                 <Link href="/news">
-                                    Services
+                                    Serviços
                                     <i className="fas fa-angle-down" />
                                 </Link>
                                 <ul className="submenu" style={{ display: `${activeItem === 2 ? "block" : "none"}` }}>
