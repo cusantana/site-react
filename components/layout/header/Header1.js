@@ -30,10 +30,10 @@ export default function Header1({
                             <div className="top-right">
                                 <div className="social-icon d-flex align-items-center">
                                     <span>Nossos canais:</span>
-                                    <Link href="#"><i className="fab fa-facebook-f" /></Link>
+                                    <Link href="https://www.facebook.com/profile.php?id=61560278442936"><i className="fab fa-facebook-f" /></Link>
                                     <Link href="https://twitter.com/@ThisbeTecnolog1"><i className="fab fa-twitter" /></Link>
-                                    <Link href="https://linkedin.com/in/thisbe-tecnologia-0754b7208"><i className="fa-brands fa-linkedin-in" /></Link>
-                                    <Link href="https://youtu.be/gfeknB2sLvc"><i className="fa-brands fa-youtube" /></Link>
+                                    <Link href=""><i className="fa-brands fa-linkedin-in" /></Link>
+                                    <Link href="https://www.youtube.com/channel/UCVn8z7VjGFnBVGWu7M7RRSw"><i className="fa-brands fa-youtube" /></Link>
                                 </div>
                             </div>
                         </div>

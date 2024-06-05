@@ -73,9 +73,9 @@ export default function Offcanvas({
                                     </Link>
                                 </div>
                                 <div className="social-icon d-flex align-items-center">
-                                    <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                    <Link href="#"><i className="fab fa-twitter" /></Link>
-                                    <Link href="#"><i className="fab fa-youtube" /></Link>
+                                    <Link href="https://www.facebook.com/profile.php?id=61560278442936"><i className="fab fa-facebook-f" /></Link>
+                                    <Link href="https://twitter.com/@ThisbeTecnolog1"><i className="fab fa-twitter" /></Link>
+                                    <Link href="https://www.youtube.com/channel/UCVn8z7VjGFnBVGWu7M7RRSw"><i className="fab fa-youtube" /></Link>
                                     <Link href="#"><i className="fab fa-linkedin-in" /></Link>
                                 </div>
                             </div>
