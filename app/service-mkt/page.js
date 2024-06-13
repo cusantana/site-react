@@ -65,19 +65,19 @@ export default function ServiceDetails() {
                                                 
                                                 <div className="content">
                                                     <h4>Benefícios</h4>
-                                                    <p> Otimização de mecanismos de pesquisa que ajudam a exibir sua empresa e seus serviços e produtos.<br /> </p>
+                                                    <p> Otimização de mecanismos de pesquisa que ajudam a exibir seus serviços e produtos da sua empresa.<br /> </p>
                                                     <ul className="list">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Resultados e esforços que facilitem o entendimento de usuários e mecanismos de buscas para seu Website
+                                                            Mecanismos de buscas para Website
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Oferecemos serviço que resulta tráfego e resposta perceptível
+                                                            Serviço que resulta tráfego e resposta perceptível
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Aplicação de técnicas de SEO para os negócios de nossos clientes
+                                                            Aplicação de técnicas de SEO para os negócios
                                                         </li>
                                                     </ul>
                                                 </div>

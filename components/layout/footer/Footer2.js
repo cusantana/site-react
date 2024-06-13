@@ -134,7 +134,7 @@ export default function Footer2() {
                                         <li>
                                             <Link href="/service-consultant">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Consultoria
+                                                Consultoria de TI
                                             </Link>
                                         </li>
                                         <li>

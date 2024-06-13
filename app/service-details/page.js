@@ -65,11 +65,11 @@ export default function ServiceDetails() {
 
                                                 <div className="content">
                                                     <h4>Benefícios</h4>
-                                                    <p> Conheça nossa solução e mantenha a integridade e prevensão dos dados da sua empresa. <br /> </p>
+                                                    <p> Monitoramento, otimização de recursos e prevensão dos dados da sua empresa. <br /> </p>
                                                     <ul className="list">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Revisão da política de segurança 
+                                                            Plataforma digital de gerenciamento de ataques  
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
@@ -77,7 +77,7 @@ export default function ServiceDetails() {
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Criptografia e métodos de authenticação
+                                                            Firewall, criptografia e métodos de authenticação
                                                         </li>
                                                     </ul>
                                                 </div>

@@ -65,19 +65,19 @@ export default function ServiceDetails() {
 
                                                 <div className="content">
                                                     <h4>Benefícios</h4>
-                                                    <p> A gestão eficaz de dados é a primeira etapa para transformar dados em execução. <br /> </p>
+                                                    <p> Gestão eficaz de dados, automatização e simplificação. <br /> </p>
                                                     <ul className="list">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Análise Descritiva
+                                                            Análise descritiva, diagnóstica e preditiva
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Análise Diagnóstica
+                                                            ETL e ingestão de dados
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Análise Preditiva
+                                                            API integradas com machine learning
                                                         </li>
                                                     </ul>
                                                 </div>

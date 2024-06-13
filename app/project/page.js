@@ -80,7 +80,7 @@ export default function Project() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/6.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Consultoria</p>
+                                            <p>Consultoria de TI</p>
                                             <h4>
                                                 <Link href="/project-details">Gerenciamento de Projetos</Link>
                                             </h4>

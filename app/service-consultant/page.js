@@ -54,22 +54,22 @@ export default function ServiceDetails() {
                                             <img src="/assets/img/service/details-2.png" alt="img" />
                                         </div>
                                         <div className="details-content">
-                                            <h3>Consultoria</h3>
+                                            <h3>Consultoria TI</h3>
                                             <p className="mt-3">
-                                                Apresentação de especialista técnico para ajudá-lo na seleção de candidatos. Temos um banco de dados de candidatos devidamente qualificados e experientes para diversas categorias, cargos e departamentos em níveis junior, pleno e sênior. Garantimos-lhe e assumimos a responsabilidade de lhe fornecer uma alternativa imediata caso um candidato deixe a sua empresa num curto espaço de tempo
+                                                Oferecemos consultoria especializada que apoie a transformação da sua empresa e crie mudanças com iniciativas de IA. O objetivo da Thisbe é ajudá-lo a definir o alvo estratégico, direção e a velocidade dos seus planos de transformação.
                                             </p>
                                             <p className="mt-3">
-                                                Temos também um serviço de suporte de aplicações e sistemas ERP. Suporte, administração e migrações.
+                                                Fornecemos suporte operacional para implementar soluções adaptadas aos seus negócios e alinhados aos processos e estratégia da sua empresa.
                                             </p>
                                             <div className="details-video-items">
 
                                                 <div className="content">
                                                     <h4>Benefícios</h4>
-                                                    <p> Qualidade e prestação de serviço <br /> </p>
+                                                    <p> Suporte e gerenciamento remoto. <br /> </p>
                                                     <ul className="list">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Recrutamento e seleção de candidatos
+                                                            Consultoria de dados
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
@@ -77,7 +77,7 @@ export default function ServiceDetails() {
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Gerenciamento de equipes
+                                                            Consultoria em cibersegurança
                                                         </li>
                                                     </ul>
                                                 </div>

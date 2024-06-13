@@ -59,7 +59,7 @@ export default function ServiceDetails() {
                                                 Criamos soluções nativa, no-code e low-code para pequenas ou grandes empresas. Com design elegante e eficiente para suportar sua empresa a fazer consultas que geram vendas e agregam valor ao seu negócio. A Thisbe entrega soluções personalizadas que atenda as necessidades de nossos clientes através de tecnologias escaláveis, flexíveis e testadas que permitem aos clientes gerenciar negócios para atingir metas proficientes.
                                             </p>
                                             <p className="mt-3">
-                                                A Thisbe trabalha em todo o ciclo de desenvolvimento - planejamento, arquitetura, criação e atualização. Com uma interface amigável ao usuário, navegação, layout, cores, fontes e imagens. Com uma equipe de profissionais experiêntes conseguimos um equilíbrio perfeito entre atitude e habilidades necessária paara desenvolver uma solução perfeita.
+                                                A Thisbe trabalha em todo o ciclo de desenvolvimento - planejamento, arquitetura, criação e atualização. Com uma interface amigável ao usuário, navegação, layout, cores, fontes e imagens. Com uma equipe de profissionais experiêntes conseguimos um equilíbrio perfeito entre atitude e habilidades necessária para desenvolver uma solução perfeita.
                                             </p>
                                             <div className="details-video-items">
                                            
@@ -69,11 +69,11 @@ export default function ServiceDetails() {
                                                     <ul className="list">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Desenvolvimento de API com tecnologia bancária e pagamentos
+                                                            Desenvolvimento de API com tecnologia bancária e meios de pagamentos
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Criação de aplicativos móveis, tablet e sistemas Web
+                                                            Criação de aplicativos móveis, tablet e Web design
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
@@ -83,7 +83,7 @@ export default function ServiceDetails() {
                                                 </div>
                                             </div>
                                             <p>
-                                            Deixe-nos ajudá-lo a tornar essa chance de ouro para você. Sua melhor solução web está aqui na Thisbe. Nós lhe daremos algo para fazer seus concorrentes pensarem.
+                                            Simplificamos a integração e a operação, com um processo de implementação aprimorado, treinamento e suporte abrangente.
                                             </p>
                                            
                                         </div>

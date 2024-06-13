@@ -83,7 +83,7 @@ export default function Service() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/success.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Consultoria</p>
+                                            <p>Consultoria de TI</p>
                                             <h4>
                                                 <Link href="/service-consultant">Gestão de Projetos</Link>
                                             </h4>

@@ -85,7 +85,7 @@ export default function Service1() {
                                         <div className="content">
                                             <h4>
                                                 <Link href="/service-consultant">
-                                                    Consultoria
+                                                    Consultoria de TI
                                                 </Link>
                                             </h4>
                                             <p>
