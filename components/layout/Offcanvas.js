@@ -25,7 +25,7 @@ export default function Offcanvas({
                                 </div>
                             </div>
                             <p className="text d-none d-lg-block">
-                                Thisbe Tecnologia.
+                                Thisbe Tecnologia
                             </p>
                             <div className="d-none d-md-block d-lg-none">
                                 <MobileMenu />
@@ -76,7 +76,7 @@ export default function Offcanvas({
                                     <Link href="https://www.facebook.com/profile.php?id=61560278442936"><i className="fab fa-facebook-f" /></Link>
                                     <Link href="https://twitter.com/@ThisbeTecnolog1"><i className="fab fa-twitter" /></Link>
                                     <Link href="https://www.youtube.com/channel/UCVn8z7VjGFnBVGWu7M7RRSw"><i className="fab fa-youtube" /></Link>
-                                    <Link href="#"><i className="fab fa-linkedin-in" /></Link>
+                                    <Link href="https://www.linkedin.com/company/thisbe"><i className="fab fa-linkedin-in" /></Link>
                                 </div>
                             </div>
                         </div>

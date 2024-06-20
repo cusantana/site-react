@@ -223,7 +223,7 @@ export default function Footer2() {
                             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                             
                                 <li>
-                                    <Link href="/contact">
+                                    <Link href="/policy">
                                         Política de Privacidade
                                     </Link>
                                 </li>

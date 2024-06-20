@@ -165,7 +165,7 @@ export default function Footer1() {
                                     </Link>
                                 </li>*/} 
                                 <li>
-                                    <Link href="/contact">
+                                    <Link href="/policy">
                                         Política de Privacidade
                                     </Link>
                                 </li>
