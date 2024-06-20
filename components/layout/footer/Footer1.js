@@ -30,7 +30,7 @@ export default function Footer1() {
                                         <div className="social-icon d-flex align-items-center">
                                             <Link href="https://www.facebook.com/profile.php?id=61560278442936"><i className="fab fa-facebook-f" /></Link>
                                             <Link href="https://twitter.com/@ThisbeTecnolog1"><i className="fab fa-twitter" /></Link>
-                                            <Link href=""><i className="fa-brands fa-linkedin-in" /></Link>
+                                            <Link href="https://www.linkedin.com/company/thisbe"><i className="fa-brands fa-linkedin-in" /></Link>
                                             <Link href="https://www.youtube.com/channel/UCVn8z7VjGFnBVGWu7M7RRSw"><i className="fa-brands fa-youtube" /></Link>
                                         </div>
                                     </div>

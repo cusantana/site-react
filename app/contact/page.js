@@ -1,9 +1,68 @@
-
+"use client"
 import VideoPopup from "@/components/elements/VideoPopup"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import * as emailjs from "emailjs-com";
+import { useState } from "react";
+import { contactConfig } from "./dataContact";
+
+
+
 
 export default function Contact() {
+
+    const [formData, setFormdata] = useState({
+        email: "",
+        name: "",
+        message: "",
+        alertmessage: "",
+      });
+    
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        setFormdata({ loading: true });
+  
+        const templateParams = {
+          from_name: formData.email,
+          user_name: formData.name,
+          to_name: contactConfig.YOUR_EMAIL,
+          message: formData.message,
+        };
+    
+        emailjs
+          .send(
+            contactConfig.YOUR_SERVICE_ID,
+            contactConfig.YOUR_TEMPLATE_ID,
+            templateParams,
+            contactConfig.YOUR_USER_ID
+          )
+          .then(
+            (result) => {
+              setFormdata({
+                loading: false,
+                alertmessage: "Mensagem enviada com sucesso!",
+                variant: "success",
+                show: true,
+              });
+            },
+            (error) => {
+              setFormdata({
+                alertmessage: `Falha ao enviar!`,
+                variant: "danger",
+                show: true,
+              });
+            }
+          );
+      };
+    
+      const handleChange = (e) => {
+        setFormdata({
+          ...formData,
+          [e.target.name]: e.target.value,
+        });
+      };
+    
+
 
     return (
         <>
@@ -27,7 +86,7 @@ export default function Contact() {
                                                     <div className="content">
                                                         <p>WhatsApp 7/24</p>
                                                         <h3>
-                                                            <Link href="/tel:+2085550112">+55 11 91198 1751</Link>
+                                                            <Link href="/tel:+2085550112">(11)91198 1751</Link>
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -40,7 +99,7 @@ export default function Contact() {
                                                         </svg>
                                                     </div>
                                                     <div className="content">
-                                                        <p>Email</p>
+                                                        <p>Solicite uma cotação</p>
                                                         <h3>
                                                             <Link href="/mailto:infotech@gmail.com">comercial@thisbe.com.br</Link>
                                                         </h3>
@@ -71,26 +130,27 @@ export default function Contact() {
                                         <div className="contact-content">
                                             <h2>Pronto para começar?</h2>
                                             <p>
-                                                Transformaremos a estratégia em um plano de ação com equipes ágeis e experientes. Retornaremos em até 24h.
+                                                Transformaremos a estratégia em um plano de ação com equipes ágeis e experientes. Retornaremos em até 6h.
                                             </p>
-                                            <form action="contact.php" id="contact-form" method="POST" className="contact-form-items">
+                                            <form className="contact-form-items" onSubmit={handleSubmit}
+                                            >
                                                 <div className="row g-4">
                                                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                                                         <div className="form-clt">
                                                             <span>Seu Nome*</span>
-                                                            <input type="text" name="name" id="name" placeholder="Seu Nome" />
+                                                            <input type="text" name="name" id="name" value={formData.name} onChange={handleChange} placeholder="Seu Nome" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                                                         <div className="form-clt">
                                                             <span>Seu Email*</span>
-                                                            <input type="text" name="email" id="email" placeholder="Seu Email" />
+                                                            <input type="text" name="email" id="email" value={formData.email} onChange={handleChange} placeholder="Seu Email" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                                         <div className="form-clt">
-                                                            <span>Escreva sua Mensagem*</span>
-                                                            <textarea name="message" id="message" placeholder="Mensagem" />
+                                                            <span>Mensagem*</span>
+                                                            <textarea name="message" id="message" value={formData.message} onChange={handleChange} placeholder="Escreva sua mensagem" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-7 wow fadeInUp" data-wow-delay=".9s">
@@ -98,83 +158,25 @@ export default function Contact() {
                                                             Enviar Messagem <i className="fa-solid fa-arrow-right-long" />
                                                         </button>
                                                     </div>
+                                                    <p className={`alert-subscribe ${formData.variant}`}>{formData.alertmessage}</p>
                                                 </div>
                                             </form>
                                         </div>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
-                        
                     </section>
                     {/*<< Map Section Start >>*/}
-                    <div className="details-content pt-3">
-                                        <h3>Conheça nossa Política de Privacidade</h3>
-                                        <p>
-                                            A THISBE se preocupa com seus Dados. Conheça os termos da nossa Política de Privacidade. Esta página foi desenvolvido com o objetivo demonstrar quais dados são coletados e como serão utilizados quando você acessar nosso site.  Em caso de não concordância do usuário com os termos desta política de privacidade a indicação é descontinuar sua navegação.
-                                            </p>
-                                        </div>
-                                        
-                                        <div className="details-content pt-5">
-                                            <h3>Sobre a LGPD</h3>
-                                            <p>
-                                            A LGPD (Lei Geral de Proteção de Dados) é uma Lei Federal, de nº 13.709/2018, que estabelece, em suma, regras sobre como os dados devem ser coletados, tratados, armazenados e protegidos no território nacional.
-                                            </p>
-                                        </div>
-                                        
-                                        <div className="details-content pt-5">
-                                            <h3>Sobre os dados que poderão ser coletados</h3>
-                                            <p>
-                                            Ao acessar e interagir com os recursos disponíveis em nosso sítio eletrônico você deve estar ciente que dados pessoais podem, eventualmente, ser coletados; por exemplo, ao preencher um formulário de contato.
-                                            As informações coletadas poderão incluir seu nome, e-mail, número de telefone, cidade residente e o seu IP (Internet Protocol).
-                                            Os dados serão sempre armazenados pelo menor tempo necessário, considerando exigências legais e regulatórias. 
-                                            Temos total responsabilidade em proteger os dados pessoais de todos, respeitando sua privacidade. Por isso operamos em total concordância com a LGPD
-                                            .
-                                            </p>
-                                        </div>
-                                        <div className="details-content pt-5">
-                                            <h3>Como serão coletadas essas informações</h3>
-                                            <p>
-                                            Informações poderão ser coletadas no momento em que são submetidas utilizando o formulário de contato e botão para iniciar conversa por redes sociais (WhatsApp ou outros).
-                                            </p>
-                                        </div>
-                                        <div className="details-content pt-5">
-                                            <h3>Uso de cookies</h3>
-                                            <p>
-                                            Poderemos fazer uso de Cookies para melhorar a experiência na utilização do site, por exemplo, para facilitar o preenchimento de formulários.
-                                            </p>
-                                        </div>
-                                        <div className="details-content pt-5">
-                                            <h3>Google Analytics</h3>
-                                            <p>
-                                            Nosso site poderá fazer uso do Google Analytics, um serviço digital oferecido pela Google LLC., situada em 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
-                                            Para mais informações sobre o Google Analytics, pedimos que consulte os seguintes termos:
-                                            - Termos de Serviço do Google Analytics https://marketingplatform.google.com/about/analytics/terms/br/
-                                            - Princípios de segurança e privacidade do Google Analytics - https://support.google.com/analytics/answer/6004245?hl=pt
-                                            - Política de Privacidade do Google - https://policies.google.com/privacy?hl=pt-BR
-                                            Você pode retirar o seu consentimento para o uso da ferramenta Google Analytics a qualquer momento, baixando e instalando um Plug-in - https://tools.google.com/dlpage/gaoptout?hl=pt-br para seu navegador oferecido pelo próprio Google. Clique aqui para baixar - https://tools.google.com/dlpage/gaoptout?hl=pt-br.
-                                            </p>
-                                        </div>
-                                        <div className="details-content pt-5">
-                                            <h3>Para que usamos essas informações</h3>
-                                            <p>
-                                            Todos os dados coletados são exclusivamente direcionados para fornecer a melhor experiência para nossos clientes.
-                                            As informações podem ser utilizadas para:
-                                            - Facilitar o preenchimento de formulários
-                                            - Ajudar na oferta de nossa solução para clientes interessados
-                                            - Fornecer um meio de contato com o cliente interessado em nossos serviços
-                                            Os dados pessoais coletados não serão, em hipótese alguma, comercializados, cedidos ou compartilhados com terceiros, sejam eles pessoas físicas ou jurídicas.
-                                            </p>
-                                        </div>
-                                        <div className="details-content pt-5">
-                                            <h3>Dúvidas</h3>
-                                            <p>
-                                                Para qualquer dúvida que surgir estamos a disposição.
-                                            </p>
-                                        </div>
+                    <div className="map-section">
+                        <div className="map-items">
+                            <div className="googpemap">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.4009470564324!2d-46.90609462468111!3d-23.192054379055367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf270fa2e20e91%3A0x15b283e244876b64!2sThisbe%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1718900949576!5m2!1spt-BR!2sbr" style={{ border: 0 }} allowFullScreen loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                                        
+
             </Layout>
         </>
     )
