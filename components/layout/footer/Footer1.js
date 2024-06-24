@@ -135,11 +135,11 @@ export default function Footer1() {
                                             </li>
                                             <li>
                                                 <i className="fa-solid fa-phone-volume" />
-                                                <Link href="/tel:2086660112">+55 (11) 91198-1751</Link>
+                                                <Link href="tel:+5511911981751">+55 (11)91198-1751</Link>
                                             </li>
                                             <li>
                                                 <i className="fa-regular fa-envelope" />
-                                                <Link href="/mailto:infotech@gmail.com">comercial@thisbe.com.br</Link>
+                                                <Link href="mailto:comercial@thisbe.com.br">comercial@thisbe.com.br</Link>
                                             </li>
                                         </ul>
                                         <Link href="/contact" className="theme-btn hover-white mt-4">

@@ -17,7 +17,7 @@ export default function Footer2() {
                             <div className="content">
                                 <p>WhatsApp 7/24</p>
                                 <h3>
-                                    <Link href="/tel:+2085550112">(11)911981751</Link>
+                                    <Link href="tel:(11)911981751">(11)911981751</Link>
                                 </h3>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export default function Footer2() {
                             <div className="content">
                                 <p>E-mail</p>
                                 <h3>
-                                    <Link href="/mailto:thisbe@thisbe.com.br">comercial@thisbe.com.br</Link>
+                                    <Link href="mailto:comercial@thisbe.com.br">comercial@thisbe.com.br</Link>
                                 </h3>
                             </div>
                         </div>

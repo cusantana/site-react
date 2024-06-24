@@ -47,7 +47,7 @@ export default function Offcanvas({
                                             <i className="fal fa-envelope" />
                                         </div>
                                         <div className="offcanvas__contact-text">
-                                            <Link href="/mailto:info@azent.com"><span className="mailto:info@example.com">comercial@thisbe.com.br</span></Link>
+                                            <Link href="mailto:comercial@thisbe.com.br"><span className="mailto:comercial@thisbe.com.br">comercial@thisbe.com.br</span></Link>
                                         </div>
                                     </li>
                                     <li className="d-flex align-items-center">
@@ -63,7 +63,7 @@ export default function Offcanvas({
                                             <i className="far fa-phone" />
                                         </div>
                                         <div className="offcanvas__contact-text">
-                                            <Link href="/tel:+11002345909">+55 (11)91198-1751</Link>
+                                            <Link href="tel:+5511911981751">+55(11)91198-1751</Link>
                                         </div>
                                     </li>
                                 </ul>

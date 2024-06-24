@@ -86,7 +86,7 @@ export default function Contact() {
                                                     <div className="content">
                                                         <p>WhatsApp 7/24</p>
                                                         <h3>
-                                                            <Link href="/tel:+2085550112">(11)91198 1751</Link>
+                                                            <Link href="tel:+5511911981751">(11)91198 1751</Link>
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -101,7 +101,7 @@ export default function Contact() {
                                                     <div className="content">
                                                         <p>Solicite uma cotação</p>
                                                         <h3>
-                                                            <Link href="/mailto:infotech@gmail.com">comercial@thisbe.com.br</Link>
+                                                            <Link href="mailto:comercial@thisbe.com.br">comercial@thisbe.com.br</Link>
                                                         </h3>
                                                     </div>
                                                 </div>
