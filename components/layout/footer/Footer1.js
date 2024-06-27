@@ -135,7 +135,7 @@ export default function Footer1() {
                                             </li>
                                             <li>
                                                 <i className="fa-solid fa-phone-volume" />
-                                                <Link href="tel:+5511911981751">+55 (11)91198-1751</Link>
+                                                <Link href="tel:+5511911981751">+55(11)91198-1751</Link>
                                             </li>
                                             <li>
                                                 <i className="fa-regular fa-envelope" />

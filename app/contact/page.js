@@ -86,7 +86,7 @@ export default function Contact() {
                                                     <div className="content">
                                                         <p>WhatsApp 7/24</p>
                                                         <h3>
-                                                            <Link href="tel:+5511911981751">(11)91198 1751</Link>
+                                                            <Link href="tel:+5511911981751">(11)91198-1751</Link>
                                                         </h3>
                                                     </div>
                                                 </div>

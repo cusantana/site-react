@@ -9,7 +9,8 @@ import "/public/assets/css/meanmenu.css"
 import "/public/assets/css/swiper-bundle.min.css"
 import "/public/assets/css/nice-select.css"
 import "/public/assets/css/main.css"
-
+import Script from 'next/script'; 
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Kumbh_Sans } from 'next/font/google'
 
 const kumbh = Kumbh_Sans({
@@ -26,7 +27,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+     
+
+      </head>
       <body className={`${kumbh.className}`}>{children}</body>
+      <GoogleAnalytics gaId="G-4512GSMJ5F" />
     </html>
   )
 }
