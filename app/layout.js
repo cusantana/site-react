@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
 
       </head>
       <body className={`${kumbh.className}`}>{children}</body>
-      <GoogleAnalytics gaId="G-4512GSMJ5F, GT-NGKRJ3MN" />
+      <GoogleAnalytics gaId="G-4512GSMJ5F" />
     </html>
   )
 }
