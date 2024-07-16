@@ -19,7 +19,7 @@ export default function NewsDetails() {
                                                 <ul className="post-list d-flex align-items-center">
                                                     <li>
                                                         <i className="fa-regular fa-user" />
-                                                        Ravena Oliveira
+                                                        Ravena Carneiro
                                                     </li>
                                                     <li>
                                                         <i className="fa-solid fa-calendar-days" />
@@ -32,7 +32,7 @@ export default function NewsDetails() {
                                                 </ul>
                                                 <h3>Explorando Oportunidades e Desafios da TI</h3>
                                                 <p className="mb-3">
-                                                    Ravena Oliveira, é estudante universitária e atua como estagiária na Thisbe deste 2023, escreveu esse artigo sobre as oportunidades e desafios da área de desenvolvimento de software. Confira os detalhes e dicas da estudante.
+                                                    Ravena Carneiro, é estudante universitária e atua como estagiária na Thisbe deste 2023, escreveu esse artigo sobre as oportunidades e desafios da área de desenvolvimento de software. Confira os detalhes e dicas da estudante.
                                                 </p>
                                                 <p className="mb-3">
                                                     Ao ingressar no mercado de trabalho por meio do estágio, o estudante de tecnologia é sujeito a uma variedade de linguagens, frameworks e metodologias práticas de desenvolvimento. Esse ambiente dinâmico oferece inúmeras oportunidade de aprendizado e crescimento profissional, apresentando desafios diários em que exigem habilidade adaptativas e busca por conhecimento constante.
