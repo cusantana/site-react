@@ -25,7 +25,7 @@ export default function Faq() {
                                             </h6>
                                             <h7 className="wow fadeInUp" data-wow-delay=".3s">
                                                 Deseja fazer parte do time da Thisbe? Envie seu currículo para rh@thisbe.com.br e a equipe de Recrutamento e Seleção irá analisar.
-                                                Boa sorte!
+                                                Boa sorte.
                                             </h7>
                                         </div>
                                         
