@@ -35,13 +35,12 @@ export default function About1() {
                                     <div className="section-title">
                                         <span className="wow fadeInUp">BEM VINDO A THISBE</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                            Uma Software House especializada em entregar software personalizado para nossos <span>Clientes</span>
+                                            Inovando com soluções personalizadas para nossos <span>Clientes</span>
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        Fundada em 2014 e com sede no Brasil, oferecemos serviços especializados impulsionados por resultados eficazes para seu negócio. <br /> Nossos
-                                        softwares são desenvolvidos em plataformas open source, low-code e no-code incluindo aplicativos Web e Mobile e, por último tornando visíveis 
-                                        para nossos clientes por meio de serviços de Cibersegurança, Data Analytics, SEO e Marketing Digital.
+                                        Fundada em 2014 e com sede no Brasil, oferecemos serviços especializados impulsionados por resultados eficazes para seu negócio. <br /> A Thisbe é uma empresa de consultoria
+                                        e desenvolvimento de IA que atende aos nossos clientes com soluções completas apoiadas por tecnologias orientadas por IA generativa.
                                     </p>
                                     <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">

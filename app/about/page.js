@@ -9,7 +9,7 @@ export default function About() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="QUEM SOMOS">
+            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Sobre">
                 <div>
                     <section className="about-section section-padding fix bg-cover" style={{ backgroundImage: 'url("assets/img/service/service-bg-2")' }}>
                         <div className="container">
@@ -17,21 +17,18 @@ export default function About() {
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="about-image-items">
-                                            <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/about/16.png")' }}>
+                                            <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/about/16.jpg")' }}>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 mt-4 mt-lg-0">
                                         <div className="about-content">
                                             <div className="section-title">
-                                                <span className="wow fadeInUp">A Thisbe é uma Software House</span>
+                                                <span className="wow fadeInUp">A Thisbe é uma empresa inovadora</span>
                                             </div>
                                             <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                            Fundada em 2014 e com sede no Brasil, somos uma empresa desenvolvedora de software com 
-                                            soluções específicas para nossos clientes oferecendo não somente o produto,
-                                            mas todo o ciclo. Vamos propor e recomendar a melhor forma de implementar
-                                            seu projeto e apoiar seus processos de negócio em todo planejamento e 
-                                            definição do escopo.<br />
+                                            Fundada em 2014 e com sede no Brasil, oferecemos serviços especializados impulsionados por resultados eficazes para seu negócio.
+                                            A Thisbe é uma empresa de consultoria e desenvolvimento de IA que atende aos nossos clientes com soluções completas apoiadas por tecnologias orientadas por IA generativa.<br />
                                             </p>
                                             <div className="about-icon-items">
                                                 <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
@@ -39,7 +36,7 @@ export default function About() {
                                                         <h4>Nosso Compromisso </h4>
                                                         <p>
                                                             Estamos comprometidos com a transparência e qualidade de nossas soluções, 
-                                                            além de continuarmos a promover uma cultura de tecnologia para o bem.
+                                                            além de continuarmos a promover uma cultura de tecnologia.
                                                         </p>
                                                     </div>
                                                 </div>

@@ -124,20 +124,7 @@ export default function NewsDetails() {
                                                     <div className="recent-thumb">
                                                         <img src="/assets/img/news/pp5.jpg" alt="img" />
                                                     </div>
-                                                    <div className="recent-content">
-                                                        <ul>
-                                                            <li>
-                                                                <i className="fa-solid fa-calendar-days" />
-                                                                Junho, 2024
-                                                            </li>
-                                                        </ul>
-                                                        <h6>
-                                                            <Link href="/news-mental">
-                                                                Cuidados com a <br />
-                                                                Sáude Mental
-                                                            </Link>
-                                                        </h6>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>

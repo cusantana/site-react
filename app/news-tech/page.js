@@ -19,7 +19,7 @@ export default function NewsDetails() {
                                                 <ul className="post-list d-flex align-items-center">
                                                     <li>
                                                         <i className="fa-regular fa-user" />
-                                                        Cristian Santana
+                                                        Cristian Uilian
                                                     </li>
                                                     <li>
                                                         <i className="fa-solid fa-calendar-days" />
@@ -120,20 +120,7 @@ export default function NewsDetails() {
                                                     <div className="recent-thumb">
                                                         <img src="/assets/img/news/pp5.jpg" alt="img" />
                                                     </div>
-                                                    <div className="recent-content">
-                                                        <ul>
-                                                            <li>
-                                                                <i className="fa-solid fa-calendar-days" />
-                                                                Maio, 2024
-                                                            </li>
-                                                        </ul>
-                                                        <h6>
-                                                            <Link href="/news-mental">
-                                                                Cuidados com a <br />
-                                                                Sáude Mental
-                                                            </Link>
-                                                        </h6>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>

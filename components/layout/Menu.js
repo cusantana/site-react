@@ -13,17 +13,17 @@ export default function Menu() {
                 </li>
                 <li>
                     <Link href="/about">
-                        QUEM SOMOS
+                        SOBRE
                     </Link>
                 </li>
                 <li>
                     <Link href="/service">
-                        O QUE FAZEMOS
+                        SERVIÇOS
                     </Link>
                 </li>
                 <li> 
-                    <Link href="/service-details">
-                        SERVIÇOS
+                    <Link href="/project-industries">
+                        INDÚSTRIAS
                     </Link>
                 </li>
                 <li>

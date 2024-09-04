@@ -23,7 +23,7 @@ export default function Footer1() {
                                     </div>
                                     <div className="footer-content">
                                         <p>
-                                            A Thisbe é uma Software House especializada no desenvolvimento de Software
+                                            A Thisbe é uma empresa de TI especializada no desenvolvimento de software
                                             com sede no Brasil. É muito mais que um provedor de serviços
                                             e soluções tecnologicas.
                                         </p>
@@ -45,7 +45,7 @@ export default function Footer1() {
                                         <li>
                                             <Link href="/about">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Quem Somos
+                                                Sobre
                                             </Link>
                                         </li>
                                         <li>

@@ -36,7 +36,7 @@ export default function MobileMenu() {
                                 </a>
                             </li>
                             <li>
-                                <Link href="/about">Quem Somos</Link>
+                                <Link href="/about">Sobre</Link>
                             </li>
                             <li>
                                 <Link href="/news">

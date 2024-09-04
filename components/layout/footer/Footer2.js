@@ -67,7 +67,7 @@ export default function Footer2() {
                                     </div>
                                     <div className="footer-content">
                                         <p>
-                                            A Thisbe é uma Software House especializada no desenvolvimento de Software
+                                            A Thisbe é uma empresa de TI especializada no desenvolvimento de software
                                             com sede no Brasil. É muito mais que um provedor de serviços
                                             e soluções tecnologicas.
                                         </p>
@@ -89,7 +89,7 @@ export default function Footer2() {
                                         <li>
                                             <Link href="/about">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Quem somos
+                                                Sobre
                                             </Link>
                                         </li>
                                         <li>
@@ -122,43 +122,25 @@ export default function Footer2() {
                             <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
                                 <div className="single-footer-widget style-margin">
                                     <div className="widget-head">
-                                        <h3>Soluções</h3>
+                                        <h3>Serviços</h3>
                                     </div>
                                     <ul className="list-area">
                                         <li>
-                                            <Link href="/service-details">
-                                                <i className="fa-solid fa-chevron-right" />
-                                                Cibersegurança
-                                            </Link>
-                                        </li>
-                                        <li>
                                             <Link href="/service-consultant">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Consultoria de TI
+                                                Consultoria
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-data">
+                                            <Link href="/service-ia">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Data Analytics
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/service-mkt">
-                                                <i className="fa-solid fa-chevron-right" />
-                                                Marketing
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/service-bpo">
-                                                <i className="fa-solid fa-chevron-right" />
-                                                Outsourcing
+                                                Inteligência Artificial
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/service-code">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Software Delivery
+                                                Software
                                             </Link>
                                         </li>
                                     </ul>

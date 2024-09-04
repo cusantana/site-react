@@ -8,7 +8,7 @@ export default function Service() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="O QUE FAZEMOS">
+            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Serviços">
                 <div>
                 <section className="project-section section-padding fix">
                     <div className="container">
@@ -18,22 +18,9 @@ export default function Service() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/1.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Data Analytics</p>
+                                            <p>Inteligência Artificial</p>
                                             <h4>
-                                                <Link href="/service-data">Dados Inteligentes</Link>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                                <div className="project-items">
-                                    <div className="project-image">
-                                        <img src="/assets/img/project/sec.png" alt="project-img" />
-                                        <div className="project-content">
-                                            <p>Cibersegurança</p>
-                                            <h4>
-                                                <Link href="/service-details">Proteção e Defesa</Link>
+                                                <Link href="/service-ia">IA generativa </Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -44,35 +31,9 @@ export default function Service() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/3.png" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Software Delivery</p>
+                                            <p>Desenvolvimento de Software</p>
                                             <h4>
-                                                <Link href="/service-code">APP | WEB | ERP</Link>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                                <div className="project-items">
-                                    <div className="project-image">
-                                        <img src="/assets/img/project/seo.png" alt="project-img" />
-                                        <div className="project-content">
-                                            <p>Marketing Digital</p>
-                                            <h4>
-                                                <Link href="/service-mkt">SEO e Web Design</Link>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                                <div className="project-items">
-                                    <div className="project-image">
-                                        <img src="/assets/img/project/9.jpg" alt="project-img" />
-                                        <div className="project-content">
-                                            <p>Outsourcing</p>
-                                            <h4>
-                                                <Link href="/service-bpo">Gestão de Colaboradores</Link>
+                                                <Link href="/service-code">Mobile | Web</Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -83,9 +44,9 @@ export default function Service() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/success.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Consultoria de TI</p>
+                                            <p>Transformação Digital</p>
                                             <h4>
-                                                <Link href="/service-consultant">Gestão de Projetos</Link>
+                                                <Link href="/service-consultant">Consultoria | Cloud</Link>
                                             </h4>
                                         </div>
                                     </div>

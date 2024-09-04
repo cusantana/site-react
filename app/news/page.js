@@ -74,38 +74,7 @@ export default function News() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                                <div className="news-card-items style-2 mt-0 pb-0">
-                                    <div className="news-image">
-                                        <img src="/assets/img/news/9.jpg" alt="news-img" />
-                                        <div className="post-date">
-                                            <h3>
-                                                01 <br />
-                                                <span>Junho</span>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div className="news-content">
-                                        <ul>
-                                            <li>
-                                                <i className="fa-regular fa-user" />
-                                                Danielly Scaranello
-                                            </li>
-                                            <li>
-                                                <i className="fa-solid fa-tag" />
-                                                Saúde
-                                            </li>
-                                        </ul>
-                                        <h3>
-                                            <Link href="/news-mental">Cuidados com a saúde mental.</Link>
-                                        </h3>
-                                        <Link href="/news-mental" className="theme-btn-2 mt-3">
-                                            Leia mais
-                                            <i className="fa-solid fa-arrow-right-long" />
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
+
                             <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                 <div className="news-card-items style-2 mt-0 pb-0">
                                     <div className="news-image">
@@ -121,7 +90,7 @@ export default function News() {
                                         <ul>
                                             <li>
                                                 <i className="fa-regular fa-user" />
-                                                Cristian Santana
+                                                Cristian Uilian
                                             </li>
                                             <li>
                                                 <i className="fa-solid fa-tag" />

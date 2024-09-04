@@ -21,16 +21,13 @@ export default function ServiceDetails() {
                                     <div className="main-sidebar">
                                         <div className="single-sidebar-widget">
                                             <div className="wid-title">
-                                                <h3>Nossos Serviços</h3>
+                                                <h3>Serviços Digitais</h3>
                                             </div>
                                             <div className="widget-categories">
                                                 <ul>
-                                                    <li><Link href="/service-details">Cibersegurança</Link><i className="fa-solid fa-arrow-right-long" /></li>
                                                     <li className="active"><Link href="/service-consultant">Consultoria</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li><Link href="/service-data">Data Analytics</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li><Link href="/service-mkt">Marketing Digital</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li><Link href="/service-bpo">Outsourcing</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li><Link href="/service-code">Software Delivery</Link><i className="fa-solid fa-arrow-right-long" /></li>
+                                                    <li><Link href="/service-ia">Inteligência Artificial</Link><i className="fa-solid fa-arrow-right-long" /></li>
+                                                    <li><Link href="/service-code">Software</Link><i className="fa-solid fa-arrow-right-long" /></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -51,25 +48,25 @@ export default function ServiceDetails() {
                                 <div className="col-12 col-lg-8 order-1 order-md-2">
                                     <div className="service-details-items">
                                         <div className="details-image">
-                                            <img src="/assets/img/service/details-2.png" alt="img" />
+                                            <img src="/assets/img/service/details-2.jpg" alt="img" />
                                         </div>
                                         <div className="details-content">
-                                            <h3>Consultoria TI</h3>
+                                            <h3>Transformação digital</h3>
                                             <p className="mt-3">
-                                                Oferecemos consultoria especializada que apoie a transformação da sua empresa e crie mudanças com iniciativas de IA. O objetivo da Thisbe é ajudá-lo a definir o alvo estratégico, direção e a velocidade dos seus planos de transformação.
+                                                Oferecemos consultoria especializada que apoie a transformação da sua empresa e crie mudanças com iniciativas de IA. Nossos especialistas irá ajudá-lo a definir o alvo estratégico, identificar áreas de melhoria e simplificar processos, mapear modelos de negócios tradicionais e tranformar em experiências digitais envolventes, acelerar a inovação tecnológica.
                                             </p>
                                             <p className="mt-3">
-                                                Fornecemos suporte operacional para implementar soluções adaptadas aos seus negócios e alinhados aos processos e estratégia da sua empresa.
+                                                Simplifique suas operações com automação, digitalização e integração, aproveitando as mais recentes ferramentas e metodologias digitais.
                                             </p>
                                             <div className="details-video-items">
 
                                                 <div className="content">
                                                     <h4>Benefícios</h4>
-                                                    <p> Suporte e gerenciamento remoto. <br /> </p>
+                                                    <p> Confiabilidade, disponibilidade, simplificação e otimização de processos de TI. <br /> </p>
                                                     <ul className="list">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Consultoria de dados
+                                                            Estratégia digital e análise de dados
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
@@ -77,13 +74,13 @@ export default function ServiceDetails() {
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Consultoria em cibersegurança
+                                                            Serviço e soluções em nuvem
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <p>
-                                                Trabalhos com responsabilidade e com objetivos estabelecidos para que juntos possamos alcançar os resultados da empresa.
+                                                Dessa forma, essa dimensão inclui um portfólio para suporte, monitoramento e gerenciamento de sistema ao usuário com objetivos estabelecidos para que possamos otimizar a jornada do cliente.
                                             </p>
                                             <div className="image-area">
                                                 

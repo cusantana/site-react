@@ -30,11 +30,11 @@ export default function Hero2() {
                             <div className="hero-content">
                                 <h6 className="wow fadeInUp" data-wow-delay=".2s">Provedor de serviços de TI</h6>
                                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
-                                    Digital Analytics
+                                    Inove com IA
                             
                                 </h1>
                                 <p className="wow fadeInUp" data-wow-delay=".6s">
-                                    Ajudando seu negócio com soluções inovadoras e seguras.
+                                    Construindo soluções digitais inovadoras e seguras.
                                 </p>
                                 <div className="hero-button">
                                     <Link href="/about" className="theme-btn wow fadeInUp" data-wow-delay=".8s">
