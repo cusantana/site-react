@@ -63,14 +63,14 @@ export default function Service1() {
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                <Link href="/service-details">
+                                                <Link href="/service-ia">
                                                     IA generativa
                                                 </Link>
                                             </h4>
                                             <p>
                                                 Desenvolvimento de IA unificada e gerenciada para criar e usar a IA generativa.
                                             </p>
-                                            <Link href="/service-details" className="theme-btn-2 mt-3">
+                                            <Link href="/service-ia" className="theme-btn-2 mt-3">
                                                 Saiba mais
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>
@@ -84,14 +84,14 @@ export default function Service1() {
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                <Link href="/service-consultant">
+                                                <Link href="/service-code">
                                                     Software
                                                 </Link>
                                             </h4>
                                             <p>
                                                 Desenvolvimento de software personalizado com foco em IA que atende diversos setores com otimização de tempo e economia.
                                             </p>
-                                            <Link href="/service-consultant" className="theme-btn-2 mt-3">
+                                            <Link href="/service-code" className="theme-btn-2 mt-3">
                                                 Saiba mais
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>
@@ -105,14 +105,14 @@ export default function Service1() {
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                <Link href="/service-details">
+                                                <Link href="/service-consultant">
                                                     Transformação Digital
                                                 </Link>
                                             </h4>
                                             <p>
                                                 Transforme seus negócios, operações e experiência do cliente.
                                             </p>
-                                            <Link href="/service-details" className="theme-btn-2 mt-3">
+                                            <Link href="/service-consultant" className="theme-btn-2 mt-3">
                                                 Saiba mais
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>
@@ -126,14 +126,14 @@ export default function Service1() {
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                <Link href="/service-details">
+                                                <Link href="/service">
                                                     Serviços de TI
                                                 </Link>
                                             </h4>
                                             <p>
                                                 Automatização e otimização de processos e gerenciamento de serviços em nuvem.
                                             </p>
-                                            <Link href="/service-details" className="theme-btn-2 mt-3">
+                                            <Link href="/service" className="theme-btn-2 mt-3">
                                                 Saiba mais
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>
@@ -147,14 +147,14 @@ export default function Service1() {
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                <Link href="/service-consultant">
+                                                <Link href="/service-ia">
                                                     IA generativa
                                                 </Link>
                                             </h4>
                                             <p>
                                                 Desenvolvimento de IA unificada e gerenciada para criar e usar a IA generativa.
                                             </p>
-                                            <Link href="/service-consultant" className="theme-btn-2 mt-3">
+                                            <Link href="/service-ia" className="theme-btn-2 mt-3">
                                                 Saiba mais
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>
@@ -168,14 +168,14 @@ export default function Service1() {
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                <Link href="/service-details">
+                                                <Link href="/service-code">
                                                     Software
                                                 </Link>
                                             </h4>
                                             <p>
                                                 Desenvolvimento de software personalizado com foco em IA que atende diversos setores com otimização de tempo e economia.
                                             </p>
-                                            <Link href="/service-details" className="theme-btn-2 mt-3">
+                                            <Link href="/service-code" className="theme-btn-2 mt-3">
                                                 Saiba mais
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>
@@ -189,14 +189,14 @@ export default function Service1() {
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                <Link href="/service-details">
+                                                <Link href="/service-consultant">
                                                     Transformação Digital
                                                 </Link>
                                             </h4>
                                             <p>
                                                 Transforme seus negócios, operações e experiência do cliente.
                                             </p>
-                                            <Link href="/service-details" className="theme-btn-2 mt-3">
+                                            <Link href="/service-consultant" className="theme-btn-2 mt-3">
                                                 Saiba mais
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>
@@ -210,14 +210,14 @@ export default function Service1() {
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                <Link href="/service-consultant">
+                                                <Link href="/service">
                                                     Serviços de TI
                                                 </Link>
                                             </h4>
                                             <p>
                                                 Automatização e otimização de processos e gerenciamento de serviços em nuvem.
                                             </p>
-                                            <Link href="/service-consultant" className="theme-btn-2 mt-3">
+                                            <Link href="/service" className="theme-btn-2 mt-3">
                                                 Saiba mais
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>
