@@ -36,7 +36,7 @@ export default function ProjectDetails() {
                                                 <ul className="list">
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
-                                                        Financeira
+                                                        Serviços Financeiros
                                                     </li>
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
@@ -48,7 +48,7 @@ export default function ProjectDetails() {
                                                 <ul className="list">
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
-                                                        Papel e celulose
+                                                        Papel & Celulose
                                                     </li>
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
@@ -64,7 +64,7 @@ export default function ProjectDetails() {
                                                     </li>
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
-                                                        Manufatureira
+                                                        Manufatura
                                                     </li>
                                                 </ul>
                                             </div>
