@@ -48,7 +48,7 @@ export default function ProjectDetails() {
                                                 <ul className="list">
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
-                                                        Papel e Celulose
+                                                        Papel & Celulose
                                                     </li>
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
