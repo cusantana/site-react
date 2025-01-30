@@ -20,7 +20,7 @@ export default function Service() {
                                         <div className="project-content">
                                             <p>Inteligência Artificial</p>
                                             <h4>
-                                                <Link href="/service-ia">IA generativa </Link>
+                                                <Link href="/service-ia">Sistemas IA</Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -33,7 +33,7 @@ export default function Service() {
                                         <div className="project-content">
                                             <p>Desenvolvimento de Software</p>
                                             <h4>
-                                                <Link href="/service-code">Mobile | Web</Link>
+                                                <Link href="/service-code">Sistemas | APPs | APIs</Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -44,9 +44,9 @@ export default function Service() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/success.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Transformação Digital</p>
+                                            <p>Cibersegurança</p>
                                             <h4>
-                                                <Link href="/service-consultant">Consultoria | Cloud</Link>
+                                                <Link href="/service-consultant">Cibernética | Dados</Link>
                                             </h4>
                                         </div>
                                     </div>

@@ -43,9 +43,9 @@ export default function Service1() {
                 <div className="container">
                     <div className="section-title-area">
                         <div className="section-title">
-                            <span className="wow fadeInUp">Serviços de TI</span>
+                            <span className="wow fadeInUp">Serviços de IA</span>
                             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                Impulsione Sua Inovação<br />
+                                Descubra nossos serviços<br />
                             </h2>
                         </div>
                         <div className="array-button">
@@ -64,11 +64,11 @@ export default function Service1() {
                                         <div className="content">
                                             <h4>
                                                 <Link href="/service-ia">
-                                                    IA generativa
+                                                    Serviços IA
                                                 </Link>
                                             </h4>
                                             <p>
-                                                Desenvolvimento de IA unificada e gerenciada para criar e usar a IA generativa.
+                                                Usar API REST e SDK para consumir serviços de IA na nuvem.
                                             </p>
                                             <Link href="/service-ia" className="theme-btn-2 mt-3">
                                                 Saiba mais
@@ -89,7 +89,7 @@ export default function Service1() {
                                                 </Link>
                                             </h4>
                                             <p>
-                                                Desenvolvimento de software personalizado com foco em IA que atende diversos setores com otimização de tempo e economia.
+                                                Integração de sistemas de inteligência artificial aos seus aplicativos e serviços.
                                             </p>
                                             <Link href="/service-code" className="theme-btn-2 mt-3">
                                                 Saiba mais
@@ -106,11 +106,11 @@ export default function Service1() {
                                         <div className="content">
                                             <h4>
                                                 <Link href="/service-consultant">
-                                                    Transformação Digital
+                                                    Cibersegurança
                                                 </Link>
                                             </h4>
                                             <p>
-                                                Transforme seus negócios, operações e experiência do cliente.
+                                                Proteger os serviços de IA e ajudar impedir perda de dados e violações de privacidade dos usuários.
                                             </p>
                                             <Link href="/service-consultant" className="theme-btn-2 mt-3">
                                                 Saiba mais
@@ -127,11 +127,11 @@ export default function Service1() {
                                         <div className="content">
                                             <h4>
                                                 <Link href="/service">
-                                                    Serviços de TI
+                                                    Integração
                                                 </Link>
                                             </h4>
                                             <p>
-                                                Automatização e otimização de processos e gerenciamento de serviços em nuvem.
+                                                Integrar funcionalidades de IA a outros aplicativos e soluções.
                                             </p>
                                             <Link href="/service" className="theme-btn-2 mt-3">
                                                 Saiba mais
@@ -148,11 +148,11 @@ export default function Service1() {
                                         <div className="content">
                                             <h4>
                                                 <Link href="/service-ia">
-                                                    IA generativa
+                                                    Serviços IA
                                                 </Link>
                                             </h4>
                                             <p>
-                                                Desenvolvimento de IA unificada e gerenciada para criar e usar a IA generativa.
+                                                Usar API REST e SDK para consumir serviços de IA na nuvem.
                                             </p>
                                             <Link href="/service-ia" className="theme-btn-2 mt-3">
                                                 Saiba mais
@@ -173,7 +173,7 @@ export default function Service1() {
                                                 </Link>
                                             </h4>
                                             <p>
-                                                Desenvolvimento de software personalizado com foco em IA que atende diversos setores com otimização de tempo e economia.
+                                                Integração de sistemas de inteligência artificial aos seus aplicativos e serviços.
                                             </p>
                                             <Link href="/service-code" className="theme-btn-2 mt-3">
                                                 Saiba mais
@@ -190,11 +190,11 @@ export default function Service1() {
                                         <div className="content">
                                             <h4>
                                                 <Link href="/service-consultant">
-                                                    Transformação Digital
+                                                    Cibersegurança
                                                 </Link>
                                             </h4>
                                             <p>
-                                                Transforme seus negócios, operações e experiência do cliente.
+                                                Proteger os serviços de IA e ajudar impedir perda de dados e violações de privacidade dos usuários.
                                             </p>
                                             <Link href="/service-consultant" className="theme-btn-2 mt-3">
                                                 Saiba mais
@@ -211,11 +211,11 @@ export default function Service1() {
                                         <div className="content">
                                             <h4>
                                                 <Link href="/service">
-                                                    Serviços de TI
+                                                    Integração
                                                 </Link>
                                             </h4>
                                             <p>
-                                                Automatização e otimização de processos e gerenciamento de serviços em nuvem.
+                                                Integrar funcionalidades de IA a outros aplicativos e soluções.
                                             </p>
                                             <Link href="/service" className="theme-btn-2 mt-3">
                                                 Saiba mais

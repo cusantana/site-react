@@ -25,9 +25,9 @@ export default function ServiceDetails() {
                                             </div>
                                             <div className="widget-categories">
                                                 <ul>
-                                                    <li><Link href="/service-consultant">Consultoria</Link><i className="fa-solid fa-arrow-right-long" /></li>
+                                                    <li><Link href="/service-consultant">Cibersegurança</Link><i className="fa-solid fa-arrow-right-long" /></li>
                                                     <li><Link href="/service-ia">Inteligência Artificial</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li className="active"><Link href="/service-code">Software</Link><i className="fa-solid fa-arrow-right-long" /></li>
+                                                    <li className="active"><Link href="/service-code">Integração de Software</Link><i className="fa-solid fa-arrow-right-long" /></li>
                                                 </ul>
                                             </div>
                                         </div>

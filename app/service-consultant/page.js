@@ -25,9 +25,9 @@ export default function ServiceDetails() {
                                             </div>
                                             <div className="widget-categories">
                                                 <ul>
-                                                    <li className="active"><Link href="/service-consultant">Consultoria</Link><i className="fa-solid fa-arrow-right-long" /></li>
+                                                    <li className="active"><Link href="/service-consultant">Cibersegurança</Link><i className="fa-solid fa-arrow-right-long" /></li>
                                                     <li><Link href="/service-ia">Inteligência Artificial</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li><Link href="/service-code">Software</Link><i className="fa-solid fa-arrow-right-long" /></li>
+                                                    <li><Link href="/service-code">Integração de Software</Link><i className="fa-solid fa-arrow-right-long" /></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -51,36 +51,32 @@ export default function ServiceDetails() {
                                             <img src="/assets/img/service/details-2.jpg" alt="img" />
                                         </div>
                                         <div className="details-content">
-                                            <h3>Transformação digital</h3>
+                                            <h3>Segurança cibernética</h3>
                                             <p className="mt-3">
-                                                Oferecemos consultoria especializada que apoie a transformação da sua empresa e crie mudanças com iniciativas de IA. Nossos especialistas irá ajudá-lo a definir o alvo estratégico, identificar áreas de melhoria e simplificar processos, mapear modelos de negócios tradicionais e tranformar em experiências digitais envolventes, acelerar a inovação tecnológica.
-                                            </p>
-                                            <p className="mt-3">
-                                                Simplifique suas operações com automação, digitalização e integração, aproveitando as mais recentes ferramentas e metodologias digitais.
+                                            Implementação de políticas de segurança, serviços de atualizações e proteção de toda cadeia de suprimentos de software. Fomulação de projetos de aprimoramento da cibersegurança.
                                             </p>
                                             <div className="details-video-items">
-
                                                 <div className="content">
                                                     <h4>Benefícios</h4>
-                                                    <p> Confiabilidade, disponibilidade, simplificação e otimização de processos de TI. <br /> </p>
+                                                    <p> Plataforma de monitoramento de ameaças, indentificação de falhas, proteção de dados e análise de vulnerabilidades. <br /> </p>
                                                     <ul className="list">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Estratégia digital e análise de dados
+                                                            Privacidade de dados
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Consultoria em sistemas ERP
+                                                            Indentidade de dados
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Serviço e soluções em nuvem
+                                                            Segurança cibernética
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <p>
-                                                Dessa forma, essa dimensão inclui um portfólio para suporte, monitoramento e gerenciamento de sistema ao usuário com objetivos estabelecidos para que possamos otimizar a jornada do cliente.
+                                                Dessa forma, ajudamos nossos clientes com treinamentos de funcionários e fortalecimento da TI no combate de ameaças cibernéticas.
                                             </p>
                                             <div className="image-area">
                                                 

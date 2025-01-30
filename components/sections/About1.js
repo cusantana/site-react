@@ -35,12 +35,11 @@ export default function About1() {
                                     <div className="section-title">
                                         <span className="wow fadeInUp">BEM VINDO A THISBE</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                            Inovando com soluções personalizadas para nossos <span>Clientes</span>
+                                            Inovando com soluções de IA personalizadas para nossos <span>Clientes</span>
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        Fundada em 2014 e com sede no Brasil, oferecemos serviços especializados impulsionados por resultados eficazes para seu negócio. <br /> A Thisbe é uma empresa de consultoria
-                                        e desenvolvimento de IA que atende aos nossos clientes com soluções completas apoiadas por tecnologias orientadas por IA generativa.
+                                    A Thisbe é uma startup brasileira de inteligência artificial especializada no desenvolvimento de software e soluções de IA completas e seguras.
                                     </p>
                                     <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
@@ -50,8 +49,7 @@ export default function About1() {
                                             <div className="content">
                                                 <h4>Nosso Foco </h4>
                                                 <p>
-                                                    Entender as necessidades de negócios de nossos clientes aplicando nosso conhecimento
-                                                    comercial e técnico e propor a solução certa.
+                                                    Entender as necessidades de nossos clientes e acelerar a transformação digital.
                                                 </p>
                                             </div>
                                         </div>
@@ -62,7 +60,7 @@ export default function About1() {
                                             <div className="content">
                                                 <h4>Missão </h4>
                                                 <p>
-                                                    Acelerar os negócios digitais a partir de ideias inovadoras impulsionadas pela tecnologia.
+                                                    Impulsionar a inovação e personalizar os serviços a partir de ideias inovadoras impulsionadas pela tecnologia.
                                                 </p>
                                             </div>
                                         </div>

@@ -25,9 +25,9 @@ export default function ServiceDetails() {
                                             </div>
                                             <div className="widget-categories">
                                                 <ul>
-                                                    <li><Link href="/service-consultant">Consultoria</Link><i className="fa-solid fa-arrow-right-long" /></li>
+                                                    <li><Link href="/service-consultant">Cibersegurança</Link><i className="fa-solid fa-arrow-right-long" /></li>
                                                     <li className="active"><Link href="/service-data">Inteligência Artificial</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li><Link href="/service-code">Software</Link><i className="fa-solid fa-arrow-right-long" /></li>
+                                                    <li><Link href="/service-code">Integração de Software</Link><i className="fa-solid fa-arrow-right-long" /></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -66,7 +66,7 @@ export default function ServiceDetails() {
                                                     <ul className="list">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Desenvolvimento de soluções e suporte contínuo
+                                                            Processamento de linguagem natural
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
@@ -80,7 +80,7 @@ export default function ServiceDetails() {
                                                 </div>
                                             </div>
                                             <p>
-                                                A Thisbe conta com uma equipe especializada e qualificada para suportar aplicações de GenAI com qualidade, privacidade e controle para os clientes, executadas em uma infraestrutura gerenciada e personalizada com base nas suas necessidades de desempenho e orçamento.
+                                                A Thisbe conta com uma equipe qualificada para suportar aplicações de GenAI com qualidade, privacidade e controle para os clientes, executadas em uma infraestrutura gerenciada e personalizada com base nas suas necessidades de desempenho e orçamento.
                                             </p>
                                             <div className="image-area">
                                                 <div className="row g-4">

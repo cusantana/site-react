@@ -24,11 +24,10 @@ export default function About() {
                                     <div className="col-lg-6 mt-4 mt-lg-0">
                                         <div className="about-content">
                                             <div className="section-title">
-                                                <span className="wow fadeInUp">A Thisbe é uma empresa inovadora</span>
+                                                <span className="wow fadeInUp">A Thisbe é uma startup de software</span>
                                             </div>
                                             <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                            Fundada em 2014 e com sede no Brasil, oferecemos serviços especializados impulsionados por resultados eficazes para seu negócio.
-                                            A Thisbe é uma empresa de consultoria e desenvolvimento de IA que atende aos nossos clientes com soluções completas apoiadas por tecnologias orientadas por IA generativa.<br />
+                                            A Thisbe é uma startup brasileira de inteligência artificial especializada no desenvolvimento de software e soluções de IA completas e seguras.<br />
                                             </p>
                                             <div className="about-icon-items">
                                                 <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
