@@ -93,7 +93,7 @@ export default function Testimonial1() {
                                                 <h2>O QUE DIZEM </h2>
                                             </div>
                                             <p className="mt-3 mt-md-0">
-                                                "A Thisbe é uma empresa audaciosa e com crescimento acelerado. Todos têm orgulho de trabalhar aqui".
+                                                "A Thisbe é uma startup com crescimento acelerado. Todos têm orgulho de trabalhar aqui".
                                             </p>
                                             <div className="author-details">
                                                 <h5>Nádia Oliveira</h5>

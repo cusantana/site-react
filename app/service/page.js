@@ -20,7 +20,7 @@ export default function Service() {
                                         <div className="project-content">
                                             <p>Inteligência Artificial</p>
                                             <h4>
-                                                <Link href="/service-ia">Sistemas IA</Link>
+                                                <Link href="/service-ia">IA Generativa</Link>
                                             </h4>
                                         </div>
                                     </div>
