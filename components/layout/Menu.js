@@ -23,7 +23,7 @@ export default function Menu() {
                 </li>
                 <li> 
                     <Link href="/project-industries">
-                        INDÚSTRIAS
+                        SOLUÇÕES
                     </Link>
                 </li>
                 <li>

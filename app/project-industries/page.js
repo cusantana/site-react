@@ -5,7 +5,7 @@ export default function ProjectDetails() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Indústrias">
+            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Soluções">
                 <section className="Project-details-section fix section-padding">
                     <div className="container">
                         <div className="project-details-wrapper">
@@ -26,7 +26,7 @@ export default function ProjectDetails() {
                                             </div>
                                         </div>
                                         <div className="details-content pt-3">
-                                            <h3>Indústrias</h3>
+                                            <h3>Setores</h3>
                                             <p>
                                                 Transforme seus negócios de maneira rápida e efetiva com os modelos de IA. Com nossa experiência e abordagem inovadora, ajudamos as empresas a obterem maior eficiência operacional, processos simplificados e custos reduzidos dos projetos em todo ciclo de vida de ML em todos os setores, com confiança e transparência em seus negócios.
                                             </p>
@@ -36,7 +36,7 @@ export default function ProjectDetails() {
                                                 <ul className="list">
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
-                                                        Financeira
+                                                        Financeiro
                                                     </li>
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
@@ -48,7 +48,7 @@ export default function ProjectDetails() {
                                                 <ul className="list">
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
-                                                        Papel & Celulose
+                                                        Tecnologia
                                                     </li>
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
@@ -60,7 +60,7 @@ export default function ProjectDetails() {
                                                 <ul className="list">
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
-                                                        Varejo
+                                                        Construção
                                                     </li>
                                                     <li>
                                                         <i className="fa-regular fa-circle-check" />
